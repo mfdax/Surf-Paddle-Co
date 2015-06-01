@@ -1,1 +1,1 @@
-## This is my Surf and Paddle project with TIY, weeks 3 and 4
+## Week 3 Lab: Surf & Paddle
