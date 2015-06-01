@@ -8,7 +8,7 @@ header .top {
   header .top .container {
     width: 100%;
     height: 100px;
-    font-size: 90px;
+    font-size: 20px;
     font-color: #ecf0f1; }
     /* line 15, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
     header .top .container .pull-left {
@@ -16,19 +16,33 @@ header .top {
 /* line 21, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
 header .row {
   width: 100%; }
-/* line 27, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
+/* line 25, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
+header .list-unstyled li a {
+  font-size: 20px;
+  font-color: #ecf0f1;
+  padding-top: 20px; }
+/* line 31, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
 header h1 {
   text-transform: uppercase;
-  font-size: 60PX;
+  font-size: 60px;
   color: #ffffff;
   margin-bottom: 0;
   text-align: center; }
-/* line 35, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
+/* line 39, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
 header h5 {
   color: #FFFFFF;
   margin-top: 0;
-  font-size: 20PX;
+  font-size: 20px;
   text-align: center; }
+
+/* line 47, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
+.bigtitle {
+  text-align: center; }
+
+/* line 51, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_header.scss */
+.topleft {
+  font-size: 20px;
+  font-weight: bold; }
 
 /* line 1, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_left_side.scss */
 .col-md-8 {
@@ -57,15 +71,17 @@ header h5 {
 
 /* line 20, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_right_side.scss */
 .bio-pic {
-  height: 70px;
-  width: 35%; }
+  height: 100px;
+  width: 100px;
+  border-radius: 100px; }
 
-/* line 25, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_right_side.scss */
+/* line 26, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_right_side.scss */
 .blog-pic {
-  height: 50px;
-  width: 70px; }
+  height: 70px;
+  width: 70px;
+  border-radius: 70px; }
 
-/* line 30, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_right_side.scss */
+/* line 32, /Users/Dax/TIY/Week-3-Lab/source/stylesheets/_right_side.scss */
 .img-thumbnail {
   width: 70%; }
 
